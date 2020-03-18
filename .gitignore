@@ -1,0 +1,14 @@
+.build
+.dist
+.DS_Store
+.env
+.installed.cfg
+.style
+.idea
+*.egg-info
+*.lint
+*.pyc
+.utils
+blackbox
+develop-eggs/
+eggs

@@ -671,7 +671,7 @@ Unreleased
 2014/05/08 0.2.0
 ----------------
 
-- changed package structure to crate.theme.rtd
+- changed package structure to okchain1.theme.rtd
 
 2014/05/07 0.1.0
 ----------------

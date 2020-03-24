@@ -24,14 +24,14 @@ from importlib import machinery
 from setuptools import setup, find_packages
 
 pwd = os.path.join(os.path.dirname(__file__))
-filepath = os.path.join(pwd, 'src', 'crate', 'theme', 'rtd', '__init__.py')
+filepath = os.path.join(pwd, 'src', 'okchain1', 'theme', 'rtd', '__init__.py')
 version = machinery.SourceFileLoader(
     'theme', filepath).load_module().__version__
 
-setup(name='crate-docs-theme',
+setup(name='okchain1-docs-theme',
       version=version,
-      description='Crate Docs Theme',
-      long_description='A Sphinx theme for the Crate Documentation',
+      description='OKChain Docs Theme',
+      long_description='A Sphinx theme for the OKChain Documentation',
       classifiers=[
           "Intended Audience :: Developers",
           "License :: OSI Approved :: Apache Software License",
@@ -42,14 +42,14 @@ setup(name='crate-docs-theme',
           "Programming Language :: Python :: 3.7",
           "Topic :: Software Development :: Documentation",
       ],
-      author='Crate.IO GmbH',
-      author_email='office@crate.io',
-      url='https://github.com/crate/crate-docs-theme',
-      keywords='crate docs sphinx readthedocs',
+      author='OKChain OKEx',
+      author_email='okchain@okg.com',
+      url='https://github.com/zccst/crate-docs-theme',
+      keywords='OKChain docs sphinx readthedocs',
       license='Apache License 2.0',
       packages=find_packages('src'),
       package_dir={'':'src'},
-      namespace_packages=['crate'],
+      namespace_packages=['okchain1'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

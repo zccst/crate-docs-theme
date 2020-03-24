@@ -1,5 +1,5 @@
 include *.txt
-recursive-include src/crate/theme/rtd/crate *
+recursive-include src/okchain1/theme/rtd/okchain1 *
 global-exclude .DS_Store
 global-exclude *.pyc
 

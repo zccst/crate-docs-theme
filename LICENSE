@@ -193,7 +193,7 @@
 
 ================================================================================
 
-For the `src/crate/theme/rtd/crate/static/css/bootstrap.css` file:
+For the `src/okchain1/theme/rtd/okchain1/static/css/bootstrap.css` file:
 
 Bootstrap v3.3.7 <http://getbootstrap.com>
 
@@ -225,7 +225,7 @@ SOFTWARE.
 
 ================================================================================
 
-For the `src/crate/theme/rtd/crate/static/css/normalize.css` file:
+For the `src/okchain1/theme/rtd/okchain1/static/css/normalize.css` file:
 
 normalize.css v3.0.3 <https://github.com/necolas/normalize.css/>
 
@@ -236,7 +236,7 @@ Licensed under the MIT license (see above for full license text).
 
 ================================================================================
 
-For the `src/crate/theme/rtd/crate/static/fonts` directory:
+For the `src/okchain1/theme/rtd/okchain1/static/fonts` directory:
 
 Blender Pro by Binnenland <http://binnenland.ch>
 
@@ -244,7 +244,7 @@ Published by Die Gestalten Verlag GmbH & Co. KG, 2008
 
 Copyright © by Binnenland and re-p.org, 2008.
 
-Licensed to CRATE Technology GmbH under an "Extended Business End User
+Licensed to okchain1 Technology GmbH under an "Extended Business End User
 Licence Agreement and Webfont End User Licence Agreement".
 
 This is a non-transferable license. Modification of these files is prohibited.
@@ -256,7 +256,7 @@ project that is not operated by Crate.io.
 
 ================================================================================
 
-For the `src/crate/theme/rtd/crate/static/js/bootstrap.js` file:
+For the `src/okchain1/theme/rtd/okchain1/static/js/bootstrap.js` file:
 
 Bootstrap v3.3.7 <http://getbootstrap.com>
 
@@ -267,7 +267,7 @@ Licensed under the MIT license (see above for full license text).
 
 ================================================================================
 
-For the `src/crate/theme/rtd/crate/static/js/modernizr.js` file:
+For the `src/okchain1/theme/rtd/okchain1/static/js/modernizr.js` file:
 
 Modernizr 2.7.1 (Custom Build) <http://modernizr.com/>
 
@@ -281,7 +281,7 @@ text).
 
 ================================================================================
 
-For the `src/crate/theme/rtd/crate/static/js/searchtools.js` file:
+For the `src/okchain1/theme/rtd/okchain1/static/js/searchtools.js` file:
 
 Sphinx JavaScript utilities for the full-text search.
 
@@ -319,7 +319,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ================================================================================
 
-For the `src/crate/theme/rtd/crate/static/js/underscore.min.js` file:
+For the `src/okchain1/theme/rtd/okchain1/static/js/underscore.min.js` file:
 
 Underscore.js 1.8.3 <http://underscorejs.org>
 
@@ -332,7 +332,7 @@ license text).
 
 ================================================================================
 
-For the `src/crate/theme/rtd/crate/static/js/webflow.js` file:
+For the `src/okchain1/theme/rtd/okchain1/static/js/webflow.js` file:
 
 Webflow: Front-end site library <https://github.com/webflow/js-webflow-api>
 

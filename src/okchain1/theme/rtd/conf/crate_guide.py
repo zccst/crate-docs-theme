@@ -19,10 +19,10 @@
 # with Crate these terms will supersede the license and you may use the
 # software solely pursuant to the terms of the relevant commercial agreement.
 
-from crate.theme.rtd.conf import *
+from okchain1.theme.rtd.conf import *
 
-project = u'Crate Python'
+project = u'okchain1 Guide'
 
 html_theme_options.update({
-    'canonical_url_path': 'docs/clients/python/en/latest/',
+    'canonical_url_path': 'docs/crate/guide/en/latest/',
 })

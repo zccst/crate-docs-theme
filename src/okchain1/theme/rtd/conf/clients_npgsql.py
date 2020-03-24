@@ -19,10 +19,10 @@
 # with Crate these terms will supersede the license and you may use the
 # software solely pursuant to the terms of the relevant commercial agreement.
 
-from crate.theme.rtd.conf import *
+from okchain1.theme.rtd.conf import *
 
-project = u'Crate Mesos Framework'
+project = u'Crate Npgsql'
 
 html_theme_options.update({
-    'canonical_url_path': 'docs/clients/mesos-framework/en/latest/',
+    'canonical_url_path': 'docs/clients/npgsql/en/latest/',
 })

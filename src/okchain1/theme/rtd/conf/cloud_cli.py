@@ -19,10 +19,10 @@
 # with Crate these terms will supersede the license and you may use the
 # software solely pursuant to the terms of the relevant commercial agreement.
 
-from crate.theme.rtd.conf import *
+from okchain1.theme.rtd.conf import *
 
-project = u'SQL 99'
+project = u'Croud CLI'
 
 html_theme_options.update({
-    'canonical_url_path': 'docs/sql-99/en/latest/',
+    'canonical_url_path': 'docs/cloud/cli/en/latest/',
 })

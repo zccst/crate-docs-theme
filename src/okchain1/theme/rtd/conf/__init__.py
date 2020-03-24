@@ -19,7 +19,7 @@
 # with Crate these terms will supersede the license and you may use the
 # software solely pursuant to the terms of the relevant commercial agreement.
 
-from crate.theme import rtd as theme
+from okchain1.theme import rtd as theme
 
 copyright = u'2015, Crate.IO GmbH'
 
@@ -33,7 +33,7 @@ exclude_trees = ['pyenv', 'tmp', 'out', 'parts', 'clients', 'eggs']
 extensions = ['sphinx.ext.autodoc']
 
 # Configure the theme
-html_theme = 'crate'
+html_theme = 'okchain1'
 html_theme_path = theme.get_html_theme_path()
 nitpicky = True
 html_show_sourcelink = False

@@ -1,10 +1,10 @@
 ================
-Crate Docs Theme
+okchain1 Docs Theme
 ================
 
 |pypi|
 
-A `Sphinx`_ theme for the `Crate documentation`_.
+A `Sphinx`_ theme for the `okchain1 documentation`_.
 
 *Note: This theme is tightly integrated into the Crate.io website and is
 not intended for general use.*
@@ -31,7 +31,7 @@ projects, seemlessly interlinked via the Crate docs theme.
 
 To use the theme, add this line to your Sphinx ``conf.py`` file::
 
-   from crate.theme.rtd.conf.foo import *
+   from okchain1.theme.rtd.conf.foo import *
 
 Here, replace ``foo`` with the appropriate module for your documentation
 project.

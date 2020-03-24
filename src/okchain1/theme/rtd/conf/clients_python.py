@@ -19,10 +19,10 @@
 # with Crate these terms will supersede the license and you may use the
 # software solely pursuant to the terms of the relevant commercial agreement.
 
-from crate.theme.rtd.conf import *
+from okchain1.theme.rtd.conf import *
 
-project = u'IoT Data Platform'
+project = u'Crate Python'
 
 html_theme_options.update({
-    'canonical_url_path': 'docs/cloud/iot-data-platform/en/latest/',
+    'canonical_url_path': 'docs/clients/python/en/latest/',
 })

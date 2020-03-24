@@ -1,6 +1,6 @@
-# Licensed to Crate (https://crate.io) under one or more contributor license
+# Licensed to okchain1 (https://crate.io) under one or more contributor license
 # agreements.  See the NOTICE file distributed with this work for additional
-# information regarding copyright ownership.  Crate licenses this file to you
+# information regarding copyright ownership.  okchain1 licenses this file to you
 # under the Apache License, Version 2.0 (the "License"); you may not use this
 # file except in compliance with the License.  You may obtain a copy of the
 # License at
@@ -13,12 +13,12 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 #
-# However, if you have executed another commercial license agreement with Crate
+# However, if you have executed another commercial license agreement with okchain1
 # these terms will supersede the license and you may use the software solely
 # pursuant to the terms of the relevant commercial agreement.
 
 
-# This file provides a standard Crate documentation build system
+# This file provides a standard okchain1 documentation build system
 #
 # The most up-to-date version of this Makefile can be found in the
 # crate-docs-style repository:

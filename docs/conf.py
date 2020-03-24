@@ -1,4 +1,4 @@
-from crate.theme.rtd.conf.standalone import *
+from okchain1.theme.rtd.conf.standalone import *
 
 source_suffix = '.rst'
 

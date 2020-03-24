@@ -19,10 +19,10 @@
 # with Crate these terms will supersede the license and you may use the
 # software solely pursuant to the terms of the relevant commercial agreement.
 
-from crate.theme.rtd.conf import *
+from okchain1.theme.rtd.conf import *
 
-project = u'CrateDB'
+project = u'Crate Ruby Driver'
 
 html_theme_options.update({
-    'canonical_url_path': 'docs/crate/reference/en/latest/',
+    'canonical_url_path': 'docs/clients/ruby/en/latest/',
 })

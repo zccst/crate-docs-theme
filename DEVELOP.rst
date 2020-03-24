@@ -67,7 +67,7 @@ Prepare a release
 
 To create a new release from the ``master`` branch:
 
-- Update ``__version__`` in ``src/crate/theme/rtd/__init__.py``
+- Update ``__version__`` in ``src/okchain1/theme/rtd/__init__.py``
 
 - Add a section for the new version in the ``CHANGES.rst`` file
 

@@ -23,7 +23,7 @@
 # Info: Be aware from where you are invoking this script due to relative paths.
 #       For example, 'gradlew' has to be in the same directory as where you are
 #       invoking this script from.
-#       E.g.: ../crate>./devtools/create_tag.sh
+#       E.g.: ../okchain1>./devtools/create_tag.sh
 
 # check if everything is committed
 CLEAN=`git status -s`

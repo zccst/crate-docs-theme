@@ -50,9 +50,9 @@ html_theme_options = {
     'globaltoc_includehidden': 'true',
 
     # The URL path is required because RTD does only allow
-    # root as a canonical url.
+    # root as a canonical url. https://crate.io/
     'canonical_url_path': '',
-    'canonical_url': 'https://crate.io/',
+    'canonical_url': '',
 
     # segment analytics configuration
     'tracking_segment_id': 'FToR4cE5lXyQziQirvt0kSnFQj0rAgu9',

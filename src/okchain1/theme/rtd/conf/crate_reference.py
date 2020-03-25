@@ -24,5 +24,5 @@ from okchain1.theme.rtd.conf import *
 project = u'CrateDB'
 
 html_theme_options.update({
-    'canonical_url_path': 'docs/crate/reference/en/latest/',
+    'canonical_url_path': 'https://zc-crate-docs-04.readthedocs.io/en/stable/',
 })

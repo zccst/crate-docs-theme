@@ -39,12 +39,12 @@ def get_html_static_path():
     """Return list of HTML static paths."""
     current_dir = current_dir()
     return [
-        os.path.join(current_dir, 'crate', 'static'),
+        os.path.join(current_dir, 'okchain1', 'static'),
     ]
 
 def get_html_template_path():
     """Return list of HTML template paths."""
     current_dir = current_dir()
     return [
-        os.path.join(current_dir, 'crate'),
+        os.path.join(current_dir, 'okchain1'),
     ]

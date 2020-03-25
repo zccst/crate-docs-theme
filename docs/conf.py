@@ -7,4 +7,4 @@ exclude_patterns = ['.*', '*.lint', 'README.rst']
 master_doc = 'index'
 
 extensions = ['sphinx_sitemap']
-site_url = 'https://crate-docs-theme.readthedocs.io/en/latest/'
+site_url = 'https://zc-crate-docs-02.readthedocs.io/en/latest/'

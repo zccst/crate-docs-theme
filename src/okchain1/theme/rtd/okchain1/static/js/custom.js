@@ -64,6 +64,58 @@
     var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
     var $sidebar = $('.bs-docs-sidebar');
     $sidebar.css('max-height', `${viewportHeight - 40}px`);
+
+
+
+
+
+
+
+
+
+
+
+    // footer icon
+    $(".footer-icon-twitter").hover(function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_twitter_h"></use></svg>');
+    }, function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_twitter"></use></svg>');
+    });
+    $(".footer-icon-telegram").hover(function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_telegram_h"></use></svg>');
+    }, function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_telegram"></use></svg>');
+    });
+    $(".footer-icon-email").hover(function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_email_h"></use></svg>');
+    }, function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_email"></use></svg>');
+    });
+    $(".footer-icon-facebook").hover(function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_facebook_h"></use></svg>');
+    }, function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_facebook"></use></svg>');
+    });
+    $(".footer-icon-Weibo").hover(function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_Weibo_h"></use></svg>');
+    }, function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_Weibo"></use></svg>');
+    });
+    $(".footer-icon-WeChat").hover(function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_WeChat_h"></use></svg>');
+    }, function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_WeChat"></use></svg>');
+    });
+    $(".footer-icon-QQ").hover(function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_QQ_h"></use></svg>');
+    }, function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_QQ"></use></svg>');
+    });
+    $(".footer-icon-reddit").hover(function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_reddit_h"></use></svg>');
+    }, function () {
+      $(this).html('').html('<svg class="icon" aria-hidden="true"><use xlink:href="#iconicon_reddit"></use></svg>');
+    });
   });
 
 })(jQuery);

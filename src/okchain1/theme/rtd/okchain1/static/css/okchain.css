@@ -1868,18 +1868,19 @@ padding-left: 72px;
     float:left
 }
 .footer-contact ul li a {
-    background-color: #465c71; /* 背景色 */
-    border: 1px #4e667d solid; /* 边框 */
-    color: #dde4ec; /* 文字颜色 */
+    /*
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec; */
     display: block; /* 此元素将显示为块级元素，此元素前后会带有换行符 */
-    line-height: 1.35em; /* 行高 */
-    padding: 2px 8px; /* 内部填充的距离 */
+    /* line-height: 1.35em;*/ /* 行高 */
+    padding: 2px 10px; /* 内部填充的距离 */
     text-decoration: none; /* 不显示超链接下划线 */
     white-space: nowrap;
 }
 .footer-contact ul li a:hover {
-    background-color: #bfcbd6; /* 背景色 */
-    color: #465c71; /* 文字颜色 */
+    /*background-color: #bfcbd6;*/
+    /*color: #465c71;*/
     text-decoration: none;
 }
 

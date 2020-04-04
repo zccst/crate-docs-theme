@@ -6,6 +6,20 @@
   "description": "okchain自定义文档工程",
   "glyphs": [
     {
+      "icon_id": "13902094",
+      "name": "triangle1",
+      "font_class": "triangle",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "13902095",
+      "name": "triangle",
+      "font_class": "triangle1",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
       "icon_id": "13799390",
       "name": "icon_email",
       "font_class": "icon_email",

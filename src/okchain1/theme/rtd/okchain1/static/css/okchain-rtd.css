@@ -130,6 +130,9 @@ div.danger {
     display: none;
 }
 
+
+
+
 /** MENUE **/
 
 .bs-docs-sidenav .toctree li {
@@ -137,10 +140,39 @@ div.danger {
     line-height: 16px;
 }
 
-.bs-docs-sidenav .toctree li.border-top {
-    border-top: 1px solid #e7e7e7;
-    padding-top: 16px;
-    margin-top: 16px;
+.bs-docs-sidenav .toctree .project {
+    padding-left: 16px;
+    line-height: 36px;
+    display: block;
+}
+
+.bs-docs-sidenav .toctree p.caption {
+    display: block;
+    padding-left: 2em;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+.bs-docs-sidenav .toctree p.caption .caption-text {
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 28px;
+    background: url("../images/triangle-open.png") 8px no-repeat;
+    background-size: 8px;
+    background-position: right center;
+
+}
+.bs-docs-sidenav .toctree p.caption .caption-text.close {
+    background: url("../images/triangle-close.png") 8px no-repeat;
+    background-size: 8px;
+    background-position: right center;
+}
+.bs-docs-sidenav .toctree ul li {
+    padding-left: 3em;
+    line-height: 16px;
+    margin: 10px 0;
+}
+.bs-docs-sidenav .toctree ul li.current {
+    border-left: 3px solid #2D60E0;
 }
 
 .bs-docs-sidenav .toctree li a {
@@ -149,12 +181,16 @@ div.danger {
     line-height: 16px;
     color: black;
 }
+.bs-docs-sidenav .toctree li a.project :hover {
+    color: #2D60E0;
+}
 
 .bs-docs-sidenav .toctree li.current > a,
 .bs-docs-sidenav .toctree li.active > a,
 .bs-docs-sidenav .toctree li.current > a code,
 .bs-docs-sidenav .toctree li.active > a code {
-    font-weight: bold;
+    font-weight: bold; /* bold 500 */
+    color: #2D60E0;
 }
 
 .bs-docs-sidenav ul {
@@ -175,10 +211,21 @@ div.danger {
 .bs-docs-sidebar {
     padding: 8px 16px;
     margin-bottom: 20px;
-    /*padding-left: 0;*/
+    padding-left: 0;
 }
+
+/* menu bottom extra nav link */
+.bs-docs-sidenav .toctree li.border-top {
+    border-top: 1px solid #e7e7e7;
+    padding-top: 16px;
+    margin-top: 16px;
+}
+
+
+
 .search-link {
-    /*padding-left: 16px;*/
+    position: relative;
+    padding-left: 16px;
 }
 
 .affix {

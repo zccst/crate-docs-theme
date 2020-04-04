@@ -68,8 +68,11 @@
 
 
 
-
-
+    // sidebar open / close
+    $(".bs-docs-sidenav .caption-text").click(function () {
+      $(this).toggleClass('close');
+      $(this).parent().next().slideToggle();
+    });
 
 
 

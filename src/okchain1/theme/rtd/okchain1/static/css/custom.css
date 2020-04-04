@@ -26,6 +26,9 @@ a:focus {
   padding: 16px 28px;
 }
 
+
+
+/* btn 2020-04-04 */
 .btn-primary,
 .btn-link a {
   border: 2px solid #2D60E0;
@@ -37,18 +40,18 @@ a:focus {
 
 .btn-primary:hover,
 .btn-link a:hover {
-  color: #1CC8F3;
-  background-color: white;
-  border-color: #1CC8F3;
+  color: #ffffff;/*#1CC8F3;*/
+  background-color: #2D60E0;/*white;*/
+  border-color: #2D60E0;/*#1CC8F3;*/
 }
 
 .btn-primary:active,
 .btn-link a:active,
 .btn-primary:focus,
 .btn-link a:focus {
-  background-color: #F3FdFF !important;
-  color: #1CC8F3 !important;
-  border-color: #1CC8F3 !important;
+  background-color: #2D60E0 !important; /*#F3FdFF*/
+  color: #ffffff !important; /*#1CC8F3*/
+  border-color: #ffffff !important; /*#1CC8F3*/
   outline: none !important;
 }
 
@@ -72,6 +75,13 @@ a:focus {
   border-color: black;
   outline: none !important;
 }
+
+
+
+
+
+
+
 
 /**
 * Navbar, dropdown menu
@@ -367,7 +377,7 @@ body .mm-menu .navbar-nav {
 * General
 */
 .bs-docs-sidenav .toctree li {
-  margin-bottom: 3px;
+  margin-bottom: 0; /* 3px; */
 }
 
 .wrapper-navleft,
@@ -387,11 +397,37 @@ body .mm-menu .navbar-nav {
   margin: 0;
 }
 
+/** magnifier **/
+.bs-docs-sidebar .search-link .magnifier {
+  position: absolute;
+  left: 52px;
+  top: 25px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+  z-index: 999;
+}
+.bs-docs-sidebar .search-link .magnifier::after {
+  content: "";
+  width: 8px;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 84%;
+  left: 100%;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
 .bs-docs-sidebar .search-link .btn {
   margin: 1rem 0;
   max-width: 100%;
   width: 100%;
-  padding: 12px;
+  padding: 10px;
 }
 
 .bs-docs-sidebar {

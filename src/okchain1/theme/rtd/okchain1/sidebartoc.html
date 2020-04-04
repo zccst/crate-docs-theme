@@ -2,14 +2,14 @@
 
   {% if project == 'OKChainDocs' %}
   <li class="navleft-item">
-    <a class="" href="{{ pathto(master_doc) }}">OKChain</a>
-    {{ toctree(maxdepth=1|toint, collapse=False, includehidden=theme_globaltoc_includehidden|tobool) }}
+    <a class="project" href="{{ pathto(master_doc) }}">OKChain</a>
+    {{ toctree(maxdepth=1, collapse=False, includehidden=theme_globaltoc_includehidden|tobool) }}
   </li>
   {% else %}
-  <li class="navleft-item"><a href="/docs/crate/tutorials/">OKChain</a></li>
+  <li class="navleft-item"><a href="https://zc-crate-docs-04.readthedocs.io/en/stable/">OKChain</a></li>
   {% endif %}
 
-  <!--
+  <!--maxdepth=1|toint
   <li class="navleft-item border-top"><a href="https://github.com/crate/crate-sample-apps">Sample Applications</a></li>
   <li class="navleft-item"><a href="/support/">Support</a></li>
   -->

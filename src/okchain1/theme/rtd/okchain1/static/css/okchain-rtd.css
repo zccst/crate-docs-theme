@@ -1,10 +1,12 @@
 
 .wrapper-content-right .section {
-    margin-top: 32px;
+    margin-top: 0; /* 32px;*/
+    margin-bottom: 0; /* 新增 */
 }
 
 .wrapper-content-right > .section {
     margin-top: 0px;
+    margin-bottom: 0; /* 新增 */
 }
 
 .toctree {
@@ -23,19 +25,48 @@ a.current, a.current-active {
 
 .highlight {
     font-size: 14px;
+    background: #f8f8f8;
 }
 
 .highlight pre {
-    padding: 15px;
-    border: 1px solid #ccc;
+    padding: 12px; /*15px;*/
+    border: 1px solid #e1e4e5; /*#ccc;*/
     border-radius: 2px;
-    background: #f0f0f0 none repeat scroll 0 0;
+    background: #f8f8f8 none repeat scroll 0 0;/*f0f0f0*/
 }
 
+.highlight .c1 {
+    color: #408080;
+}
+
+.highlight .s1 {
+    color: #BA2121;
+}
+
+.highlight .s2 {
+    color: #BA2121;
+}
+
+.highlight .kn {
+    color: #008000;
+}
+
+.highlight .nn {
+    color: #0000FF;
+}
+
+
+
+
 blockquote {
-    font-size: 20px;
+    /*font-size: 20px;
     border-left: 0px;
-    padding: 0px 0px;
+    padding: 0px 0px;*/
+
+    font-size: 16px;
+    margin-left: 24px;
+    line-height: 24px;
+    margin-bottom: 24px;
 }
 
 /** admonitions **/

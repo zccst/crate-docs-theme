@@ -30,9 +30,11 @@ a.current, a.current-active {
 
 .highlight pre {
     padding: 12px; /*15px;*/
-    border: 1px solid #e1e4e5; /*#ccc;*/
+    /*border: 1px solid #e1e4e5;*/
+    /*#ccc;*/
+    color: #3f475a;
     border-radius: 2px;
-    background: #f8f8f8 none repeat scroll 0 0;/*f0f0f0*/
+    background: #f5f6fa none repeat scroll 0 0;/*f0f0f0*/
 }
 
 .highlight .c1 {
@@ -176,6 +178,9 @@ div.danger {
     padding-left: 16px;
     line-height: 36px;
     display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #9aa1b1;
 }
 
 .bs-docs-sidenav .toctree p.caption {
@@ -188,6 +193,9 @@ div.danger {
     display: inline-block;
     cursor: pointer;
     padding-right: 28px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3f475a;
     background: url("../images/triangle-open.png") 8px no-repeat;
     background-size: 8px;
     background-position: right center;
@@ -209,9 +217,9 @@ div.danger {
 
 .bs-docs-sidenav .toctree li a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
-    color: black;
+    color: #7b8293;
 }
 .bs-docs-sidenav .toctree li a.project :hover {
     color: #2D60E0;

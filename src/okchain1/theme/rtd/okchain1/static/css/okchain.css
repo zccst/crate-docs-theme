@@ -5,7 +5,8 @@
 
 .navlink a {
     font-size: 16px;
-    color: #222;
+    /*color: #222;*/
+    color: #3f475a;
 }
 
 .navlink a:hover {
@@ -58,6 +59,7 @@ h1 {
     font-size: 24px; /* 48px; */
     line-height: 44px;
     font-weight: 700;
+    color: #1F2533;
     text-transform: uppercase;
 }
 
@@ -67,6 +69,7 @@ h2 {
     font-size: 22px; /*30px;*/
     line-height: 36px;
     font-weight: 700;
+    color: #3f475a;
     letter-spacing: 0px;
 }
 
@@ -74,7 +77,7 @@ h3 {
     margin-top: 0px;
     margin-bottom: 16px;
     color: #000;
-    font-size: 20px; /*24px;*/
+    font-size: 18px; /*24px;*/
     line-height: 30px;
     font-weight: 700;
     letter-spacing: 0px;
@@ -1875,9 +1878,13 @@ html.w-mod-js *[data-ix="hide-color-logo"] {
 .footer-logo {
     float: left;
 }
+.footer-logo .copyright {
+    color: #7b8293;
+}
 
 .footer-contact {
     float: right;
+    margin-top: 5px;
 }
 .footer-contact ul {
     list-style: none;

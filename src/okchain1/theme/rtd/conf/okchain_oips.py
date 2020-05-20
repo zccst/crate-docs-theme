@@ -21,8 +21,8 @@
 
 from okchain1.theme.rtd.conf import *
 
-project = u'CrateDB Tutorials'
+project = u'OIPs'
 
 html_theme_options.update({
-    'canonical_url_path': 'docs/crate/tutorials/en/latest/',
+    'canonical_url_path': 'https://oips.readthedocs.io/en/latest/',
 })

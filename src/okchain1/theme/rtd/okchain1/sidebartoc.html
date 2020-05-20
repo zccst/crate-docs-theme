@@ -6,8 +6,19 @@
     {{ toctree(maxdepth=1, collapse=False, includehidden=theme_globaltoc_includehidden|tobool) }}
   </li>
   {% else %}
+  <li class="navleft-item" style="display: none">
+      <a  class="project" href="https://okchain-docs.readthedocs.io/en/latest/">OKChain</a>
+  </li>
+  {% endif %}
+
+  {% if project == 'OIPs' %}
   <li class="navleft-item">
-      <a  class="project" href="https://zc-crate-docs-04.readthedocs.io/en/stable/">OKChain</a>
+    <a class="project" href="{{ pathto(master_doc) }}">OIPs</a>
+    {{ toctree(maxdepth=1, collapse=False, includehidden=theme_globaltoc_includehidden|tobool) }}
+  </li>
+  {% else %}
+  <li class="navleft-item" style="display: none">
+    <a  class="project" href="https://oips.readthedocs.io/en/latest/">OIPs</a>
   </li>
   {% endif %}
 

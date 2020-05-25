@@ -144,6 +144,9 @@
     {%- if hasdoc('search') %}
     <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}" />
     {%- endif %}
+    {%- if hasdoc('community') %}
+    <link rel="search" title="{{ _('Community') }}" href="{{ pathto('community') }}" />
+    {%- endif %}
     {%- if hasdoc('copyright') %}
     <link rel="copyright" title="{{ _('Copyright') }}" href="{{ pathto('copyright') }}" />
     {%- endif %}

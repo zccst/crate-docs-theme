@@ -21,8 +21,8 @@
 
 from okchain1.theme.rtd.conf import *
 
-project = u'OKChainDocs'
+project = u'OKExChainDocs'
 
 html_theme_options.update({
-    'canonical_url_path': 'https://okchain-docs.readthedocs.io/en/latest/',
+    'canonical_url_path': 'https://okexchain-docs.readthedocs.io/en/latest/',
 })

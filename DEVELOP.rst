@@ -11,7 +11,7 @@ To make changes to this theme, follow this process:
 1. `Make changes`_
 2. `Prepare a release`_
 3. `Upload to PyPI`_
-4. `Rebuild all OKChain docs`_
+4. `Rebuild all OKExChain docs`_
 
 *Note*: If you have made changes to the Crate.io website and want to see those
 changes reflected in the docs, you must make the same changes to this
@@ -117,7 +117,7 @@ To see a list of other build options, run:
 Rebuild all Crate docs
 ----------------------
 
-Once the theme is released, you must rebuild all of the OKChain docs so
+Once the theme is released, you must rebuild all of the OKExChain docs so
 that they pick up the changes. Consult the internal documentation for
 help `rebuilding the docs`_.
 

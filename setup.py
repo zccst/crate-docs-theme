@@ -30,8 +30,8 @@ version = machinery.SourceFileLoader(
 
 setup(name='okchain1-docs-theme',
       version=version,
-      description='OKChain Docs Theme',
-      long_description='A Sphinx theme for the OKChain Documentation',
+      description='OKExChain Docs Theme',
+      long_description='A Sphinx theme for the OKExChain Documentation',
       classifiers=[
           "Intended Audience :: Developers",
           "License :: OSI Approved :: Apache Software License",

@@ -207,12 +207,13 @@ div.danger {
     background-position: right center;
 }
 .bs-docs-sidenav .toctree ul li {
-    padding-left: 3em;
+    /*padding-left: 3em;*/
+    padding-left: 2.5em;
     line-height: 16px;
     margin: 10px 0;
 }
 .bs-docs-sidenav .toctree ul li.current {
-    border-left: 3px solid #2D60E0;
+    /*border-left: 3px solid #2D60E0;*/
 }
 
 .bs-docs-sidenav .toctree li a {

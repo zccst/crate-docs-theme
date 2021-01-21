@@ -53,7 +53,7 @@ setup(name='okchain1-docs-theme',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'Sphinx==1.7.4',
+#           'Sphinx==1.7.4',
           'sphinxcontrib-plantuml==0.14',
           'sphinx_sitemap==0.3.1',
       ],

@@ -24,5 +24,5 @@ from okchain1.theme.rtd.conf import *
 project = u'OIPs'
 
 html_theme_options.update({
-    'canonical_url_path': 'https://oips.readthedocs.io/en/latest/',
+    'canonical_url_path': 'https://kips.readthedocs.io/en/latest/',
 })

@@ -9,11 +9,8 @@
   $(document).ready(function() {
 
     //web jumb
-    var oec_host="oec-docs.readthedocs.io";
-    var okexchian_host="okexchain-docs.readthedocs.io";
-    if (window.location.hostname==okexchian_host){
-      var new_href=window.location.href.replace(okexchian_host,oec_host);
-      window.location.href=new_href;
+    if (document.domain=="okexchain-docs.readthedocs.io"){
+      window.location.href="https://oec-docs.readthedocs.io"+window.location.pathname+window.location.search;
     }
 
     /**

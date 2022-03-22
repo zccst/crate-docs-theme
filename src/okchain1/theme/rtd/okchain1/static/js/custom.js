@@ -7,10 +7,11 @@
   var $body = $('body');
 
   $(document).ready(function() {
-
-    //web jumb
-    if (document.domain=="okexchain-docs.readthedocs.io"){
-      window.location.href="https://oec-docs.readthedocs.io"+window.location.pathname+window.location.search;
+  //web jumb
+    var hostname = window.location.hostname;
+    var href = window.location.href;
+    if ( hostname.includes("okexchain-docs") ) {
+      window.location.href = href.replace("okexchain-docs","oec-docs");
     }
 
     /**

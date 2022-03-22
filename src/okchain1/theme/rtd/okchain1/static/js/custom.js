@@ -7,6 +7,12 @@
   var $body = $('body');
 
   $(document).ready(function() {
+  //web jumb
+    var hostname = window.location.hostname;
+    var href = window.location.href;
+    if ( hostname.includes("okexchain-docs") ) {
+      window.location.href = href.replace("okexchain-docs","oec-docs");
+    }
 
     /**
     * Dropdown menu

@@ -11,7 +11,10 @@
     var hostname = window.location.hostname;
     var href = window.location.href;
     if ( hostname.includes("okexchain-docs") ) {
-      window.location.href = href.replace("okexchain-docs","oec-docs");
+      window.location.href = href.replace("okexchain-docs","okc-docs");
+    }
+    if ( hostname.includes("oec-docs") ) {
+      window.location.href = href.replace("oec-docs","okc-docs");
     }
 
     /**

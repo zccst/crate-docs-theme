@@ -2,6 +2,9 @@
 * This JS file is for additional new JS built over the existing theme
 * ...so as to avoid breaking anything unexpectedly
 */
+// 2022-12-20 本文档重定向到新版
+window.location.href = 'https://www.okx.com/okc/docs/about-okc/quick-start.html';
+
 (function($) {
 
   var $body = $('body');
